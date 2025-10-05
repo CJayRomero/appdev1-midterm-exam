@@ -1,58 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Profile</title>
-  <!-- link CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="profile-container">
-    <!-- Profile Header -->
-    <div class="profile-header">
-      <img src="https://via.placeholder.com/120" alt="Profile Picture">
-      <h1>Christian Jay Romero</h1>
-      <p>Aspiring Digital Artist & Software Developer</p>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Profile Content -->
-    <div class="profile-content">
-      <!-- About Section -->
-      <section>
-        <h2>About Me</h2>
-        <p>
-          Hi! I'm Christian, a passionate learner who dreams of becoming a digital artist,
-          illustrator, and animator. I'm also studying Information Systems and exploring
-          the world of programming.
-        </p>
-      </section>
-
-      <!-- Skills Section -->
-      <section>
-        <h2>Skills</h2>
-        <div class="skills">
-          <div class="skill">HTML</div>
-          <div class="skill">CSS</div>
-          <div class="skill">JavaScript</div>
-          <div class="skill">React</div>
-          <div class="skill">Digital Art</div>
-        </div>
-      </section>
-
-      <!-- Extra Info Section -->
-      <section>
-        <h2>More Info</h2>
-        <p class="extra-info hidden">
-          In the future, I hope to build my own business while creating art and animations that inspire others.
-          I also dream of having a happy family and living a meaningful life filled with creativity.
-        </p>
-        <button class="toggle-btn" id="toggleBtn">Show More</button>
-      </section>
-    </div>
-  </div>
-
-  <!-- link JS -->
-  <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <title>appdev1-midterm-exam</title>
+  </head>
+  <body>
+    <script type="module" src="/src/main.jsx"></script>
+    <div id="root"></div>
+    
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+  </body>
 </html>
